@@ -15,9 +15,9 @@
     "socket.io": "^4.7.2"
   },
   "scripts": {
-    "start": "browser-sync docs -w",
+    "start": "browser-sync . -w",
     "lint": "npm run lint:js && npm run lint:html",
-    "lint:js": "eslint docs/*.js",
-    "lint:html": "eslint docs/*.html"
+    "lint:js": "eslint ./*.js",
+    "lint:html": "eslint ./*.html"
   }
 }
