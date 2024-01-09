@@ -2,8 +2,8 @@
   "name": "algorand-tech-radar",
   "version": "2022.5.0",
   "description": "Visualizing our technology choices",
-  "homepage": "https://github.com/zalando/tech-radar#readme",
-  "repository": "https://github.com/zalando/tech-radar.git",
+  "homepage": "https://github.com/algorandfoundation/technical-adoption-committee#readme",
+  "repository": "https://github.com/algorandfoundation/technical-adoption-committee.git",
   "license": "MIT",
   "directories": {
     "doc": "docs"
