@@ -1,0 +1,100 @@
+{
+  "date": "2023.11",
+  "entries": [
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "TxnLab/use-wallet",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 1,
+      "label":"Algorand Extension API provider",
+      "link": "https://github.com/algorand/js-algorand-sdk",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-31 Authentication",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/160",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-52 Contextual KeyGen & Signing",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/239",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "ARC-55 On-chain Multisig Apps",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/254",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Conduit",
+      "link": "https://github.com/algorand/conduit/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "Hashicorp Vault",
+      "link": "https://www.vaultproject.io/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "WebRTC",
+      "link": "https://webrtc.org/",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "BIP39",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "BIP32-Ed25519",
+      "link": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:04fe29b0-ea1a-478b-a886-9bb558a5242a",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Algorand API provider9",
+      "link": "https://algorand-provider.agoralabs.sh/",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "FIDO2 - Authentication",
+      "link": "https://fidoalliance.org/how-fido-works/",
+      "active": true,
+      "moved": 0
+    }
+  ]
+}
