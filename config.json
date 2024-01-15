@@ -38,7 +38,87 @@
       "label": "ARC-55 On-chain Multisig Apps",
       "link": "https://github.com/algorandfoundation/ARCs/pull/254",
       "active": true,
-      "moved": 1
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-44 Wallet contextual derivations",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/224",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-45 gtxn ABI Encoding",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/220",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-50 Delegated Asset Opt Ins",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/229",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-51 Method Reference Discovery",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/230",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-56 Extended App Description",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/258",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-57: Application Action Routing",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/264",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-13 Decentralized identifiers",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/265",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-113 Verifiable Credentials ",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/266",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-58 Plugin-Based Account Abstraction",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/269",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-27 Web Extension Provider Interface",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/272",
+      "active": true,
+      "moved": 0
     },
     {
       "quadrant": 1,
