@@ -18,3 +18,22 @@ The radar is reviewed monthly by the ATAC (Algorand Technical Adoption Comittee)
 Items being moved from **HOLD** to other quadrants are done so by voting by the ATAC's members. 
 
 The group will accept pull requests to add new items to the radar. New items will be added to the **HOLD** quadrant and will be reviewed by the ATAC in the next monthly meeting.
+
+## How to add a new item
+
+To add a new item to the radar, please create a pull request where you add a new entry to the config.json file. The entry should be in the following format: 
+
+```json
+    {
+      "quadrant": 0, // 0 == Projects, 1 == Infrastructure, 2 == ARCS, 3 == Standards & Techniques
+      "ring": 1, // 0 == Adopt, 1 == Trial, 2 == Assess, 3 == Hold
+      "label":"Algorand Extension API provider", // Name of the item
+      "link": "https://github.com/algorand/js-algorand-sdk", // Link to the item
+      "active": true, // Not doing much atm
+      "moved": 0 // 0 == Not moved and shows as a circle, 1 == Moved and shows as a triangle
+    }
+```
+
+#### Credits
+
+This project is based on the [Zalando Tech Radar](https://github.com/zalando/tech-radar), which in turn is inspired by [ThoughtWorks Radar](https://www.thoughtworks.com/radar).
