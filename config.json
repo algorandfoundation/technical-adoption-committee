@@ -10,9 +10,17 @@
     },
     {
       "quadrant": 0,
-      "ring": 1,
-      "label":"Algorand Extension API provider",
-      "link": "https://github.com/algorand/js-algorand-sdk",
+      "ring": 3,
+      "label": "algo-models",
+      "link": "https://github.com/algorandfoundation/algo-models",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "algo-did",
+      "link": "https://github.com/algorandfoundation/did-algo",
       "active": true,
       "moved": 0
     },
@@ -125,6 +133,30 @@
       "ring": 2,
       "label": "Conduit",
       "link": "https://github.com/algorand/conduit/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Algorand Indexer",
+      "link": "https://github.com/algorand/indexer",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Algod",
+      "link": "https://github.com/algorand/go-algorand",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "AlgoNode.io Service",
+      "link": "https://algonode.io/",
       "active": true,
       "moved": 0
     },
