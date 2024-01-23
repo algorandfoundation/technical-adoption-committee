@@ -129,9 +129,9 @@
       "moved": 0
     },
     {
-      "quadrant": 1,
+      "quadrant": 3,
       "ring": 3,
-      "label": "Hashicorp Vault",
+      "label": "Hashicorp Vault for Enterprise Wallets",
       "link": "https://www.vaultproject.io/",
       "active": true,
       "moved": 0
