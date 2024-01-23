@@ -55,15 +55,15 @@ function radar_visualization(config) {
   ];
 
   const title_offset =
-    { x: -675, y: -420 };
+    { x: -875, y: -420 };
 
   const footer_offset =
-    { x: -675, y: 420 };
+    { x: -875, y: 420 };
 
   const legend_offset = [
     { x: 450, y: 90 },
-    { x: -675, y: 90 },
-    { x: -675, y: -310 },
+    { x: -875, y: 90 },
+    { x: -875, y: -310 },
     { x: 450, y: -310 }
   ];
 
@@ -210,12 +210,12 @@ function radar_visualization(config) {
     .attr("x1", 0).attr("y1", -400)
     .attr("x2", 0).attr("y2", 400)
     .style("stroke", config.colors.grid)
-    .style("stroke-width", 1);
+    .style("stroke-width", 3);
   grid.append("line")
     .attr("x1", -400).attr("y1", 0)
     .attr("x2", 400).attr("y2", 0)
     .style("stroke", config.colors.grid)
-    .style("stroke-width", 1);
+    .style("stroke-width", 3);
 
   // background color. Usage `.attr("filter", "url(#solid)")`
   // SOURCE: https://stackoverflow.com/a/31013492/2609980
@@ -239,7 +239,7 @@ function radar_visualization(config) {
       .attr("r", rings[i].radius)
       .style("fill", "none")
       .style("stroke", config.colors.grid)
-      .style("stroke-width", 1);
+      .style("stroke-width", 3);
     if (config.print_layout) {
       grid.append("text")
         .text(config.rings[i].name)

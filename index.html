@@ -24,14 +24,14 @@ fetch('./config.json').then(function(response) {
 }).then(function(data) {
   radar_visualization({
     svg_id: "radar",
-    width: 1450,
+    width: 1850,
     height: 1000,
     colors: {
       background: "#fff",
       grid: '#dddde0',
       inactive: "#ddd"
     },
-    title: "Tech Radar",
+    title: "Algorand Technology Radar",
     date: data.date,
     quadrants: [
       { name: "Projects" },
@@ -54,5 +54,9 @@ fetch('./config.json').then(function(response) {
   console.log('Error loading config.json', err);
 });
 </script>
+
+
+
+
 </body>
 </html>
