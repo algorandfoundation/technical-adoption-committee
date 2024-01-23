@@ -129,6 +129,318 @@
       "moved": 0
     },
     {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "ARC-32 Application Specification",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0032",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-54 ASA Burning App",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0054",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-12 Claimable ASA from vault application",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0012",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-1 Algorand Wallet Transaction Signing API",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0001",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-2 Algorand Transaction Note Field Conventions",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0002",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-3 Conventions Fungible/Non-Fungible Tokens",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0003",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-4 Application Binary Interface (ABI)",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0004",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-5 Wallet Transaction Signing API (Functional)",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0005",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-6 Algorand Wallet Address Discovery API",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0006",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-7 Algorand Wallet Post Transactions API",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0007",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-8 Algorand Wallet Sign and Post API",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0008",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-9 Algorand Wallet Algodv2 and Indexer API",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0009",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-10 Algorand Wallet Reach Minimum Requirements",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0010",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-11 Algorand Wallet Reach Browser Spec",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0011",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-15 Encrypted Short Messages",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0015",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-16 Convention for declaring traits of an NFT's",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0016",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-18 Royalty Enforcement Specification",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0018",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-19 Templating of NFT ASA URLs for mutability",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0019",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-20 Smart ASA",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0020",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-21 Round based datafeed oracles on Algorand",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0021",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-22 Add `read-only` annotation to ABI methods",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0022",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-23 Sharing Application Information",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0023",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-25 Algorand WalletConnect v1 API",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0025",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-26 URI scheme",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0026",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-28 Algorand Event Log Spec",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0028",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-35 Algorand Offline Wallet Backup Protocol",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0035",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-36 Convention for declaring filters of an NFT",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0036",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-47 Logic Signature Templates",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0047",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-69 ASA Parameters Conventions, Digital Media",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0069",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-73 Algorand Interface Detection Spec",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0073",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-74 NFT Indexer API",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0074",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "ARC-76 Password Account",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0076",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-0 ARC Purpose and Guidelines",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0000",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-33 Becoming an xGov",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0033",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-34 xGov Proposal Process",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0034",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-48 Targeted DeFi Rewards",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0048",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-49 NFT Rewards",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0049",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-72 Algorand Smart Contract NFT Specification",
+      "link": "https://arc.algorand.foundation/ARCs/arc-0072",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "ARC-200 Algorand Smart Contract Token Specification",
+      "link": "https://arc.algorand.foundation/ARCs/arc-00200",
+      "active": true,
+      "moved": 0
+    },
+    {
       "quadrant": 1,
       "ring": 2,
       "label": "Conduit",
