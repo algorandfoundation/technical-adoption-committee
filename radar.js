@@ -435,15 +435,15 @@ function radar_visualization(config) {
     // blip shape
     if (d.moved > 0) {
       blip.append("path")
-        .attr("d", "M -15,7 15,7 0,-18 z") 
+        .attr("d", "M -13,7 13,7 0,-18 z") 
         .style("fill", d.color);
     } else if (d.moved < 0) {
       blip.append("path")
-        .attr("d", "M -15,-7 15,-7 0,18 z") 
+        .attr("d", "M -13,-7 13,-7 0,18 z") 
         .style("fill", d.color);
     } else {
       blip.append("circle")
-        .attr("r", 15)
+        .attr("r", 13)
         .attr("fill", d.color);
     }
 
@@ -452,11 +452,12 @@ function radar_visualization(config) {
       var blip_text = config.print_layout ? d.label.indexOf('ARC')>-1 ? "A"+d.label.substring(0,d.label.indexOf(' ')).split('-')[1]: d.id : d.label.match(/[a-z]/i);
       blip.append("text")
         .text(blip_text)
-        .attr("y", 3)
+        .attr("y", 5)
         .attr("text-anchor", "middle")
         .style("fill", "#fff")
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", function(d) { return blip_text.length > 2 ? "8px" : "9px"; })
+        .style("font-size", function(d) { return blip_text.length > 2 ? "10px" : "12px"; })
+        .style("font-weight", "bold")
         .style("pointer-events", "none")
         .style("user-select", "none");
     }

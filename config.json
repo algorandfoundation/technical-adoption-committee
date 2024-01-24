@@ -91,7 +91,7 @@
     {
       "quadrant": 2,
       "ring": 3,
-      "label": "ARC-57: Application Action Routing",
+      "label": "ARC-57 Application Action Routing",
       "link": "https://github.com/algorandfoundation/ARCs/pull/264",
       "active": true,
       "moved": 0
