@@ -55,7 +55,7 @@ function radar_visualization(config) {
   ];
 
   const title_offset =
-    { x: -875, y: -420 };
+    { x: -915, y: -420 };
 
   const footer_offset =
     { x: -875, y: 420 };
@@ -255,15 +255,15 @@ function radar_visualization(config) {
     }
   }
 
-  function legend_transform(quadrant, ring, index=null) {
+  function legend_transform(quadrant, ring, index=null, offsetX=0, offsetY=0) {
     var dx = ring < 2 ? 0 : 140;
     var dy = (index == null ? -16 : index * 12);
     if (ring % 2 === 1) {
       dy = dy + 36 + segmented[quadrant][ring-1].length * 12;
     }
     return translate(
-      legend_offset[quadrant].x + dx,
-      legend_offset[quadrant].y + dy
+      legend_offset[quadrant].x + dx + offsetX,
+      legend_offset[quadrant].y + dy + offsetY
     );
   }
 
@@ -300,7 +300,7 @@ function radar_visualization(config) {
     for (var quadrant = 0; quadrant < 4; quadrant++) {
       legend.append("text")
         .attr("transform", translate(
-          legend_offset[quadrant].x,
+          legend_offset[quadrant].x - 40,
           legend_offset[quadrant].y - 45
         ))
         .text(config.quadrants[quadrant].name)
@@ -308,8 +308,13 @@ function radar_visualization(config) {
         .style("font-size", "18px")
         .style("font-weight", "bold");
       for (var ring = 0; ring < 4; ring++) {
+
+        // offset labels and legend items for the first and third ring
+        var offsetX = ring == 0 || ring == 1 ? -40 : 0
+        offsetX = ring == 2 || ring == 3 ? 100 : offsetX
+
         legend.append("text")
-          .attr("transform", legend_transform(quadrant, ring))
+          .attr("transform", legend_transform(quadrant, ring, null, offsetX))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
           .style("font-size", "12px")
@@ -327,7 +332,7 @@ function radar_visualization(config) {
                  return (d.link && config.links_in_new_tabs) ? "_blank" : null;
               })
             .append("text")
-              .attr("transform", function(d, i) { return legend_transform(quadrant, ring, i); })
+              .attr("transform", function(d, i) { return legend_transform(quadrant, ring, i, offsetX); })
               .attr("class", "legend" + quadrant + ring)
               .attr("id", function(d, i) { return "legendItem" + d.id; })
               .text(function(d, i) { return d.id + ". " + d.label; })
