@@ -266,7 +266,7 @@
     },
     {
       "quadrant": 3,
-      "ring": 1,
+      "ring": 3,
       "label": "BIP32-Ed25519",
       "link": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:04fe29b0-ea1a-478b-a886-9bb558a5242a",
       "active": true,
