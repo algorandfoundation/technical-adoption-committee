@@ -435,21 +435,21 @@ function radar_visualization(config) {
     // blip shape
     if (d.moved > 0) {
       blip.append("path")
-        .attr("d", "M -11,5 11,5 0,-13 z") // triangle pointing up
+        .attr("d", "M -15,7 15,7 0,-18 z") 
         .style("fill", d.color);
     } else if (d.moved < 0) {
       blip.append("path")
-        .attr("d", "M -11,-5 11,-5 0,13 z") // triangle pointing down
+        .attr("d", "M -15,-7 15,-7 0,18 z") 
         .style("fill", d.color);
     } else {
       blip.append("circle")
-        .attr("r", 9)
+        .attr("r", 15)
         .attr("fill", d.color);
     }
 
     // blip text
     if (d.active || config.print_layout) {
-      var blip_text = config.print_layout ? d.id : d.label.match(/[a-z]/i);
+      var blip_text = config.print_layout ? d.label.indexOf('ARC')>-1 ? "A"+d.label.substring(0,d.label.indexOf(' ')).split('-')[1]: d.id : d.label.match(/[a-z]/i);
       blip.append("text")
         .text(blip_text)
         .attr("y", 3)
