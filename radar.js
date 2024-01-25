@@ -453,11 +453,11 @@ function radar_visualization(configuration) {
             return (d.link && config.links_in_new_tabs) ? "_blank" : null;
           })
           .append("text")
-          .attr("transform", function (d, i) { return legend_transform(quadrant, ring, i); })
+          .attr("transform", function (d, i) { return legend_transform(quadrant, ring, i, offsetX); })
           .attr("class", "legend" + quadrant + ring)
           .attr("id", function (d, i) { return "legendItem" + d.id; })
           .text(function (d, i) {
-            var maxLength = 23;
+            var maxLength = 53;
             var label = d.id + ". " + d.label;
             return label.length > maxLength ? label.substring(0, maxLength) + '...' : label;
           })
