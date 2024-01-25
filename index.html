@@ -47,7 +47,8 @@ fetch('./config.json').then(function(response) {
     ],
     print_layout: true,
     links_in_new_tabs: true,
-    // zoomed_quadrant: 0,
+    zoomed_quadrant: null,
+    zoomed_quadrant_set: false,
     entries: data.entries
   });
 }).catch(function(err) {
