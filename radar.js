@@ -114,15 +114,15 @@ function viewbox(quadrant) {
   switch (quadrant) {
     case 0:
       return [
-        -850,
-        -480,
+        -920,
+        -500,
         config.width / 2,
         config.height / 2
       ].join(" ");
     case 1:
       return [
         0,
-        -480,
+        -500,
         config.width / 2,
         config.height / 2
       ].join(" ");
@@ -135,7 +135,7 @@ function viewbox(quadrant) {
       ].join(" ");
     case 3:
       return [
-        -850,
+        -920,
         0,
         config.width / 2,
         config.height / 2
@@ -388,10 +388,7 @@ function radar_visualization(configuration) {
     // title
 
     radar.append("path")
-
       .attr("transform", `scale(0.5)`)
-
-
 
     radar.append("text")
       .attr("transform", translate(title_offset.x, title_offset.y))
