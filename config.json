@@ -98,19 +98,19 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "ARC-13 Decentralized identifiers",
       "link": "https://github.com/algorandfoundation/ARCs/pull/265",
       "active": true,
-      "moved": 0
+      "moved": 1
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "ARC-113 Verifiable Credentials ",
       "link": "https://github.com/algorandfoundation/ARCs/pull/266",
       "active": true,
-      "moved": 0
+      "moved": 1
     },
     {
       "quadrant": 2,
