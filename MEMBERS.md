@@ -33,3 +33,5 @@
 ## Nodely.io (AlgoNode)
 - Representative: [Paweł Pierścionek](ppierscionek@gmail.com)
 
+## MakerX
+- Representative: [Rob Moore](rob.moore@makerx.com.au)
