@@ -29,6 +29,14 @@ proposal.
 or No Opinion.
 - Proposals that don't pass can be re-submitted later for
 re-vote.
+```
+- Proposals will be discussed in (VOTING):
+1. Discord 🐢
+2. Slack ✅
+3. Github Discussions 🐱
+4. Discourse 📖
+I will edit this PR after voting.
+```
 ## PROCESS
 - Each member receives one vote.
 - The voting window is one week. Failure to vote is considered
