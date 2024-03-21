@@ -9,38 +9,6 @@
       "moved": 0
     },
     {
-      "quadrant": 0,
-      "ring": 3,
-      "label": "algo-models",
-      "link": "https://github.com/algorandfoundation/algo-models",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 3,
-      "label": "algo-did",
-      "link": "https://github.com/algorandfoundation/did-algo",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-31 Authentication",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/160",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-52 Contextual KeyGen & Signing",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/239",
-      "active": true,
-      "moved": 0
-    },
-    {
       "quadrant": 2,
       "ring": 2,
       "label": "ARC-55 On-chain Multisig Apps",
@@ -51,104 +19,8 @@
     {
       "quadrant": 2,
       "ring": 3,
-      "label": "ARC-44 Wallet contextual derivations",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/224",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-45 gtxn ABI Encoding",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/220",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-50 Delegated Asset Opt Ins",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/229",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-51 Method Reference Discovery",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/230",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-56 Extended App Description",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/258",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-57 Application Action Routing",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/264",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-13 Decentralized identifiers",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/265",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-113 Verifiable Credentials ",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/266",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ARC-58 Plugin-Based Account Abstraction",
-      "link": "https://github.com/algorandfoundation/ARCs/pull/269",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
       "label": "ARC-27 Web Extension Provider Interface",
       "link": "https://github.com/algorandfoundation/ARCs/pull/272",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 2,
-      "label": "ARC-32 Application Specification",
-      "link": "https://arc.algorand.foundation/ARCs/arc-0032",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "ARC-54 ASA Burning App",
-      "link": "https://arc.algorand.foundation/ARCs/arc-0054",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "ARC-12 Claimable ASA from vault application",
-      "link": "https://arc.algorand.foundation/ARCs/arc-0012",
       "active": true,
       "moved": 0
     },
@@ -165,46 +37,6 @@
       "ring": 0,
       "label": "ARC-28 Algorand Event Log Spec",
       "link": "https://arc.algorand.foundation/ARCs/arc-0028",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "ARC-47 Logic Signature Templates",
-      "link": "https://arc.algorand.foundation/ARCs/arc-0047",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "ARC-73 Algorand Interface Detection Spec",
-      "link": "https://arc.algorand.foundation/ARCs/arc-0073",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "ARC-74 NFT Indexer API",
-      "link": "https://arc.algorand.foundation/ARCs/arc-0074",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "ARC-72 Algorand Smart Contract NFT Specification",
-      "link": "https://arc.algorand.foundation/ARCs/arc-0072",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "ARC-200 Algorand Smart Contract Token Specification",
-      "link": "https://arc.algorand.foundation/ARCs/arc-00200",
       "active": true,
       "moved": 0
     },
@@ -237,54 +69,6 @@
       "ring": 0,
       "label": "AlgoNode.io Service",
       "link": "https://algonode.io/",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "Hashicorp Vault for Enterprise Wallets",
-      "link": "https://www.vaultproject.io/",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "WebRTC",
-      "link": "https://webrtc.org/",
-      "active": true,
-      "moved": 1
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "BIP39",
-      "link": "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "BIP32-Ed25519",
-      "link": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:04fe29b0-ea1a-478b-a886-9bb558a5242a",
-      "active": true,
-      "moved": 1
-    },
-    {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "Algorand API provider9",
-      "link": "https://algorand-provider.agoralabs.sh/",
-      "active": true,
-      "moved": 1
-    },
-    {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "FIDO2 - Authentication",
-      "link": "https://fidoalliance.org/how-fido-works/",
       "active": true,
       "moved": 0
     }
