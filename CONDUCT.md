@@ -29,6 +29,8 @@ proposal.
 or No Opinion.
 - Proposals that don't pass can be re-submitted later for
 re-vote.
+- Proposals will be discussed on Slack.
+
 ## PROCESS
 - Each member receives one vote.
 - The voting window is one week. Failure to vote is considered
