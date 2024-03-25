@@ -1,36 +1,4 @@
-# 3/22/2024 - ATAC 22.03.2024
-
-## Participants
-
-- Algorand Foundation
-- Algorand Technologies
-- Pera Wallet
-- Defly Wallet
-- Vestige
-- NFDomains
-- Lute Wallet
-- GoPlausible
-- Nodely.io (AlgoNode)
-- MakerX
-
-### Missing Participants
-
-- Tinyman
-- FolksFinance
-
-## Meeting Notes
-
-- To decide on ecosystem priorities
-- Agreed that priorities should be time bounded and re-assessed regularly
-    - To be decided: how often
-- Find a methodology to create items to vote on during the meeting
-    - [Grzegorz Raczek](grzracz) suggested using https://retrotool.io/
-    - We used the tool to define ecosystem priorities and to vote on
-- Slack won the vote for the communication channel
-    - [Bruno Martins](bruno.martins@algorand.foundation) will create the channel
-- Next meeting: 5th of April, 2024
-
-## Priorities (sorted by votes)
+## Ecosystem Priorities (sorted by votes)
 * HDWallet support (+7)
 * Privacy enabling features (+7)
 * Passkey wallets (either passkey authentication or passkey-based wallet creation) (+6)
