@@ -7,7 +7,7 @@
 * Better APIs for nodes (make node API as good as indexer API) to disincentivize usage of indexers (+5)
 * Public adoption tracker site + champions (+5)
 * More code examples for TEALScript/Puya (+4)
-* There should be more than a single contributor to the protocol / node (+4)
+* There should be more than a single entity contributing to the protocol / node (+4)
 * signing fully specd/implemented for wallets.; transactions; signed data; auth (+3)
 * improved onboarding experience (zero-algo onboarding, fiat onramps, ...) (+4)
 * Refinement in fees for transactions.; outer (gate fee) + itxn fixed fees (+2)
