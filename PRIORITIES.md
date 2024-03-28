@@ -3,7 +3,7 @@
 * Privacy enabling features (+8)
 * Passkey wallets (either passkey authentication or passkey-based wallet creation) (+7)
 * OPT_INs are a friction point (+6)
-* cross-wallet multi-sig (but not publishing to chain); like Defly's solution but agnostic/usable for all wallets. (+6)
+* Cross-Wallet Multi-Sig (+6)
 * Better APIs for nodes (make node API as good as indexer API) to disincentivize usage of indexers (+5)
 * Public adoption tracker site + champions (+5)
 * More code examples for TEALScript/Puya (+4)
