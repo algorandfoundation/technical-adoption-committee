@@ -10,7 +10,7 @@
     },
     {
       "quadrant": 2,
-      "ring": 2,
+      "ring": 3,
       "label": "ARC-55 On-chain Multisig Apps",
       "link": "https://github.com/algorandfoundation/ARCs/pull/254",
       "active": true,
@@ -22,55 +22,119 @@
       "label": "ARC-27 Web Extension Provider Interface",
       "link": "https://github.com/algorandfoundation/ARCs/pull/272",
       "active": true,
-      "moved": 0
+      "moved": 1
     },
     {
       "quadrant": 2,
-      "ring": 0,
+      "ring": 3,
       "label": "ARC-20 Smart ASA",
       "link": "https://arc.algorand.foundation/ARCs/arc-0020",
       "active": true,
-      "moved": 0
+      "moved": 1
     },
     {
       "quadrant": 2,
-      "ring": 0,
+      "ring": 3,
       "label": "ARC-28 Algorand Event Log Spec",
       "link": "https://arc.algorand.foundation/ARCs/arc-0028",
       "active": true,
-      "moved": 0
+      "moved": 1
     },
     {
       "quadrant": 1,
-      "ring": 2,
+      "ring": 3,
       "label": "Conduit",
       "link": "https://github.com/algorand/conduit/",
       "active": true,
-      "moved": 0
+      "moved": 1
     },
     {
       "quadrant": 1,
-      "ring": 2,
+      "ring": 3,
       "label": "Algorand Indexer",
       "link": "https://github.com/algorand/indexer",
       "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "Algod",
-      "link": "https://github.com/algorand/go-algorand",
-      "active": true,
-      "moved": 0
+      "moved": 1
     },
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "AlgoNode.io Service",
+      "label": "Nodely.io Service",
       "link": "https://algonode.io/",
       "active": true,
       "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-59 Vault Router",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/285",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Node & Protocol Documentation",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Infrastructure Readiness for Consensus Incentives",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Clarification on Post-Quantum Signature Schemes",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "ARC-60 Arbitrary Data Signing",
+      "link": "https://github.com/algorandfoundation/ARCs/pull/284",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Node Running Instructions & Docs",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "puya",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "TealScript",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "HDWallets",
+      "link": "",
+      "active": true,
+      "moved": 1
     }
   ]
 }
