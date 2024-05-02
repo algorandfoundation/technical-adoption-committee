@@ -15,8 +15,23 @@
 </head>
 
 <body>
-
 <svg id="radar"></svg>
+
+<!--A table with 2 columns for items that fall outside the radar -->
+<table>
+  <tr>
+    <td>
+      <h2>Incoming Items</h2>
+      <ul id="out-of-radar">
+        <li><span class="ring" style="background-color: #5ba300"></span> place holder item</li>
+      </ul>
+    </td>
+    <td>
+      <h2>Adopted</h2>
+      <ul id="legend">
+        <li><span class="ring" style="background-color: #5ba300"></span> place holder item </li>
+    </td>
+  </tr>
 
 <script>
 fetch('./config.json').then(function(response) {
@@ -37,7 +52,7 @@ fetch('./config.json').then(function(response) {
       { name: "Projects" },
       { name: "Infrastructure" },
       { name: "ARCs" },
-      { name: "Standards & Techniques" },
+      { name: "Protocol & Node" },
     ],
     rings: [
       { name: "ADOPT", color: "#5ba300" },
