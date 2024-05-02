@@ -41,7 +41,7 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 0,
       "label": "ARC-28 Algorand Event Log Spec",
       "link": "https://arc.algorand.foundation/ARCs/arc-0028",
       "active": true,
@@ -105,7 +105,7 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "ARC-60 Arbitrary Data Signing",
       "link": "https://github.com/algorandfoundation/ARCs/pull/284",
       "active": true,
