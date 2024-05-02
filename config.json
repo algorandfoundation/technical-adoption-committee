@@ -9,8 +9,15 @@
       "moved": 0
     },
     {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Algokit",
+      "active": true,
+      "moved": 1
+    },
+    {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 1,
       "label": "ARC-55 On-chain Multisig Apps",
       "link": "https://github.com/algorandfoundation/ARCs/pull/254",
       "active": true,
@@ -18,7 +25,7 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 1,
       "label": "ARC-27 Web Extension Provider Interface",
       "link": "https://github.com/algorandfoundation/ARCs/pull/272",
       "active": true,
@@ -30,7 +37,7 @@
       "label": "ARC-20 Smart ASA",
       "link": "https://arc.algorand.foundation/ARCs/arc-0020",
       "active": true,
-      "moved": 1
+      "moved": 0
     },
     {
       "quadrant": 2,
@@ -38,11 +45,11 @@
       "label": "ARC-28 Algorand Event Log Spec",
       "link": "https://arc.algorand.foundation/ARCs/arc-0028",
       "active": true,
-      "moved": 1
+      "moved": 0
     },
     {
       "quadrant": 1,
-      "ring": 3,
+      "ring": 2,
       "label": "Conduit",
       "link": "https://github.com/algorand/conduit/",
       "active": true,
@@ -50,7 +57,7 @@
     },
     {
       "quadrant": 1,
-      "ring": 3,
+      "ring": 0,
       "label": "Algorand Indexer",
       "link": "https://github.com/algorand/indexer",
       "active": true,
@@ -66,7 +73,7 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "ARC-59 Vault Router",
       "link": "https://github.com/algorandfoundation/ARCs/pull/285",
       "active": true,
@@ -74,7 +81,7 @@
     },
     {
       "quadrant": 3,
-      "ring": 3,
+      "ring": 2,
       "label": "Node & Protocol Documentation",
       "link": "",
       "active": true,
@@ -82,7 +89,7 @@
     },
     {
       "quadrant": 3,
-      "ring": 3,
+      "ring": 2,
       "label": "Infrastructure Readiness for Consensus Incentives",
       "link": "",
       "active": true,
@@ -106,7 +113,7 @@
     },
     {
       "quadrant": 3,
-      "ring": 3,
+      "ring": 2,
       "label": "Node Running Instructions & Docs",
       "link": "",
       "active": true,
@@ -114,7 +121,7 @@
     },
     {
       "quadrant": 0,
-      "ring": 3,
+      "ring": 0,
       "label": "puya",
       "link": "",
       "active": true,
@@ -122,7 +129,7 @@
     },
     {
       "quadrant": 0,
-      "ring": 3,
+      "ring": 0,
       "label": "TealScript",
       "link": "",
       "active": true,
@@ -130,7 +137,7 @@
     },
     {
       "quadrant": 1,
-      "ring": 3,
+      "ring": 1,
       "label": "HDWallets",
       "link": "",
       "active": true,
