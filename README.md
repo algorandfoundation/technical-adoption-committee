@@ -13,15 +13,15 @@ The radar is divided into four quadrants, each representing a different level of
 
 ## Updates
 
-The radar is reviewed monthly by the ATAC (Algorand Technical Adoption Comittee). Items in the radar are reviewed and moved to different quadrants as needed. 
+The radar is reviewed monthly by the ATC (Algorand Technical Comittee). Items in the radar are reviewed and moved to different quadrants as needed.
 
-Items being moved from **HOLD** to other quadrants are done so by voting by the ATAC's members. 
+Items being moved from **HOLD** to other quadrants are done so by voting by the ATC's members.
 
-The group will accept pull requests to add new items to the radar. New items will be added to the **HOLD** quadrant and will be reviewed by the ATAC in the next monthly meeting.
+The group will accept pull requests to add new items to the radar. New items will be added to the **HOLD** quadrant and will be reviewed by the ATC in the next monthly meeting.
 
 ## How to add a new item
 
-To add a new item to the radar, please create a pull request where you add a new entry to the config.json file. The entry should be in the following format: 
+To add a new item to the radar, please create a pull request where you add a new entry to the config.json file. The entry should be in the following format:
 
 ```json
     {

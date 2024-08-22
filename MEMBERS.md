@@ -1,4 +1,4 @@
-# Algorand Technical Adoption Committee Members
+# Algorand Technical Committee Members
 
 ## Algorand Foundation
 - Representative: [Bruno Martins](bruno.martins@algorand.foundation)
